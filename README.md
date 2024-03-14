@@ -1,6 +1,7 @@
 # Secrets Wrapper
 
 This is a library for wrapping up different ways of accessing secrets and configuration.
+Install with `pip install secret-lib`. The project is on [Pipy](https://pypi.org/project/secret-lib/).
 
 ## Dotenv files
 

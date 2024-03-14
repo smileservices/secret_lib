@@ -1,29 +1,18 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="data_persistence_repository",
-    version="0.2.2",
+    name="secret_lib",
+    version="0.1",
     author="vladimir gorea",
     author_email="vladimir@smileservices.dev",
-    description="A repository implementation for data persistence.",
+    description="A wrapper for different configuration/secret sources.",
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url="https://github.com/smileservices/data_persistence_repository",
+    url="https://github.com/smileservices/secret_lib",
     packages=find_packages(),
     install_requires=[
-        "exceptiongroup==1.2.0",
-        "greenlet==3.0.2",
-        "iniconfig==2.0.0",
-        "packaging==23.2",
-        "pluggy",
-        "psycopg2==2.9.9",
-        "pytest==7.4.3",
-        "SQLAlchemy==2.0.23",
-        "SQLAlchemy-Utils==0.41.1",
-        "tomli==2.0.1",
-        "typing_extensions==4.9.0",
-        "pytest-asyncio==0.23.2",
-        "asyncpg==0.29.0"
+        "hvac",
+        "python-dotenv"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
