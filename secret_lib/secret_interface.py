@@ -15,4 +15,4 @@ class Secret(ABC):
         try:
             return self._secrets[key]
         except KeyError:
-            raise SecretException(f'Secret {key} is missing')
+            raise KeyError(f'Secret {key} is missing')
