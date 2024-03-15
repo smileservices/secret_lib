@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="secret_lib",
-    version="0.1",
+    version="0.1.1",
     author="vladimir gorea",
     author_email="vladimir@smileservices.dev",
     description="A wrapper for different configuration/secret sources.",
